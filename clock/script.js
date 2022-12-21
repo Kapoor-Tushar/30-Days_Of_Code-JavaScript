@@ -1,17 +1,6 @@
 secondHand = document.querySelector(".secondhand");
 minuteHand = document.querySelector(".minutehand");
 hourHand = document.querySelector(".hourhand");
-// console.log(secondHand);
-// let date = new Date();
-// console.log(date.getHours(), date.getMinutes(), date.getSeconds());
-
-// Now we will implementing clock logic
-// secondHandMovement = function () {
-//   let date = new Date();
-//   seconds = date.getSeconds();
-//   secondsAngle = seconds * 6;
-//   secondHand.style.transform = `rotate(${secondsAngle}deg)`;
-// };
 
 timeFunc = function () {
   let date = new Date();
