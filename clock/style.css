@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  position: relative;
+  height: 50vh;
+}
+.clock_outer-circle {
+  height: 20rem;
+  width: 20rem;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+.clock_line-1,
+.clock_line-2 {
+  /* Seeting the position and size of pseudo element */
+  position: absolute;
+  height: 20rem;
+  width: 5px;
+  background-color: aqua;
+  left: 50%;
+}
+.clock_line-3,
+.clock_line-4,
+.clock_line-5,
+.clock_line-6 {
+  /* Seeting the position and size of pseudo element */
+  position: absolute;
+  height: 20rem;
+  width: 5px;
+  background-color: grey;
+  left: 50%;
+}
+.clock_line-2 {
+  transform: rotate(90deg);
+}
+.clock_line-3 {
+  transform: rotate(30deg);
+}
+.clock_line-4 {
+  transform: rotate(60deg);
+}
+.clock_line-5 {
+  transform: rotate(120deg);
+}
+.clock_line-6 {
+  transform: rotate(150deg);
+}
+.clock_inner-circle {
+  position: relative;
+  top: 12%;
+  left: 13%;
+  height: 15rem;
+  width: 15rem;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+.clock_inner-middle-circle {
+  position: absolute;
+  top: 51%;
+  left: 48.5%;
+  height: 1rem;
+  width: 1rem;
+  background-color: gainsboro;
+  border-radius: 50%;
+  z-index: 102;
+}
+.clock_second-hand {
+  height: 8rem;
+  width: 3px;
+  left: 50.4%;
+
+  position: absolute;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+
+  top: 10.8%;
+  transform-origin: bottom;
+  transform: rotate(270deg);
+  z-index: 101;
+}
+.clock_minute-hand {
+  height: 7rem;
+  width: 5px;
+  left: 50.2%;
+
+  position: absolute;
+  background-color: rgb(120, 120, 245);
+
+  top: 16%;
+  transform-origin: bottom;
+  transform: rotate(180deg);
+  border-radius: 5px;
+  z-index: 101;
+}
+.clock_hour-hand {
+  height: 5rem;
+  width: 5px;
+  left: 50.4%;
+
+  position: absolute;
+  background-color: rgb(120, 120, 245);
+
+  top: 26.8%;
+  transform-origin: bottom;
+  transform: rotate(305deg);
+  border-radius: 5px;
+  z-index: 101;
+}
+.credits {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.credits_link {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(108, 10, 200);
+}
