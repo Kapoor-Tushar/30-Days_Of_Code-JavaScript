@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Color Picker</div>
+      <input type="color" class="color_picker" />
+      <p class="color-picker_heading">
+        Click on the color bar to select different color.
+      </p>
+      <div class="color_code">
+        <p class="hex_code">
+          Hex Code:
+          <button class="btn" id="hex_value" onclick="hex()">HexCode</button>
+        </p>
+        <p class="rgb_code">
+          RGB code:
+          <button class="btn" id="rgb_value" onclick="rgb()">RGB( , , )</button>
+        </p>
+        <p class="rgb_code">
+          HSL code:
+          <button class="btn" id="hsl_value" onclick="hsl()">HSL( , , )</button>
+        </p>
+      </div>
+      <p class="sub-heading">Click on the button to copy text to clipboard</p>
+    </div>
+    <footer class="footer">
+      Created by
+      <a href="https://www.youtube.com/channel/UCepbD-sH6_tczBJAu2bTNIw"
+        >Coding Amigos</a
+      >
+    </footer>
+  </body>
+</html>
