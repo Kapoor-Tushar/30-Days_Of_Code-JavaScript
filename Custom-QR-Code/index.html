@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Custom QR Code Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script
+      defer
+      src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="heading">QR Code Generator</div>
+    <div class="container">
+      <input
+        type="text"
+        name="qr_code_name"
+        placeholder="www.sampleWebsite.com"
+        class="input_text"
+      />
+      <button class="generate_result">Generate QR Code</button>
+      <div class="qr_code" id="qrcode">QRCode</div>
+    </div>
+    <footer class="footer">
+      Created by
+      <a href="https://www.youtube.com/channel/UCepbD-sH6_tczBJAu2bTNIw"
+        >Coding Amigos</a
+      >
+      | Credits:
+      <a href="https://davidshimjs.github.io/qrcodejs/">qrcode.js</a>
+    </footer>
+  </body>
+</html>

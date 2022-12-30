@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.heading {
+  width: 50%;
+  background-color: aquamarine;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  font-size: 2rem;
+  padding: 1rem;
+  color: white;
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+}
+.container {
+  background-color: aliceblue;
+  padding: 1rem;
+  width: 50%;
+  position: relative;
+  left: 300px;
+  height: 450px;
+}
+.input_text {
+  width: 270px;
+  font-size: 1.4rem;
+  position: relative;
+  left: 185px;
+  text-align: center;
+}
+.generate_result {
+  display: block;
+  margin: 1.2rem;
+  position: relative;
+  left: 210px;
+  font-size: 1.2rem;
+}
+.qr_code {
+  margin: 2rem;
+  height: 300px;
+  width: 300px;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 21.5%;
+}
+.footer {
+  margin: 0;
+  position: relative;
+  bottom: -20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
