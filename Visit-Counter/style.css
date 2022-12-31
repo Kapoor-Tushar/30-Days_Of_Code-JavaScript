@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.visits {
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  left: 10px;
+}
