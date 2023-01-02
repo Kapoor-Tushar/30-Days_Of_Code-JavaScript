@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.heading {
+  font-size: 2rem;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+.sample_text {
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 500px;
+  }
+}
+.speed_controller_container {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-size: 1.6rem;
+  position: relative;
+  top: 100px;
+}
