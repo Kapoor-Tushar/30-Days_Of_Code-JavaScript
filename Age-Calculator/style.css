@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  font-size: 3rem;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: chartreuse;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.prev-age-container {
+  height: 30%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dob {
+  font-size: 2rem;
+  margin: 20px;
+  cursor: pointer;
+}
+.calculate {
+  font-size: 2rem;
+  margin: 20px;
+}
+.calculate:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.cur-age {
+  height: 40%;
+  font-size: 2.5rem;
+  background-color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
