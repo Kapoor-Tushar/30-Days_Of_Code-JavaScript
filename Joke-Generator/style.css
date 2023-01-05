@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: tomato;
+}
+.heading {
+  font-size: 3rem;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 40%;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  top: 10%;
+  box-shadow: 8px 8px 8px rgba(103, 95, 95, 0.3);
+}
+.joke-container {
+  text-align: center;
+  font-size: 1.3rem;
+  position: relative;
+  top: -15%;
+  padding: 1.5rem;
+}
+
+.generate-joke {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 70%;
+  cursor: pointer;
+  display: block;
+}
