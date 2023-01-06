@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  height: 30%;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 35%;
+  background-color: aliceblue;
+  width: 40%;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  left: 30%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.weight-conatiner {
+  padding: 20px;
+}
+.height-container {
+  padding-bottom: 20px;
+}
+.btn-calculate {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.result {
+  padding: 1rem;
+}
