@@ -6,11 +6,9 @@ let resultContainer = document.querySelector(".result");
 let btnReload = document.querySelector(".btn-reload");
 
 let randomNum = Math.floor(Math.random() * 10);
-console.log(randomNum);
 let userInp;
 inpNum.addEventListener("input", function () {
   userInp = Number(inpNum.value);
-  console.log(userInp);
   resultContainer.classList.add("hidden");
 });
 btnGuess.addEventListener("click", function () {
