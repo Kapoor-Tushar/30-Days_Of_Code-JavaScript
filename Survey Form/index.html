@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dating Survey Form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charm&family=Great+Vibes&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class = "main-display_area">
+		<header class="main-header">
+			<h1 class="main-header_heading">Dating Survey Form</h1>
+		</header>
+		<main>
+			<section class="personal_details">
+				<form action="action.php" method="post">
+					<fieldset class="personal_details-box">
+						<legend>Personal Details</legend>
+						<label for="fname">First Name:</label>
+						<input type="text" name="fname">
+						<br/><br/>
+						<label for="lname">Last Name:</label>
+						<input type="text" name="lname">
+						<br/><br/>
+						<label for="address">Address: </label> 
+						<input type="text" name="address">
+						<br/><br/>
+						<label for="father_fullname">Father's Name: </label> 
+						<input type="text" name="father_fullname">
+						<br/><br/>
+						<label for="mother_fullname">Mother's Name: </label> 
+						<input type="text" name="mother_fullname">
+						<br/><br/>
+						<label for="place_of_birth">Place of birth:</label> 
+						<input type="text" name="place_of_birth">
+						<br/><br/>
+						<label for="gender">Gender: </label> 
+						<input type="radio" name="gender" value="Male">
+						<label for="male">Male</label>
+						<input type="radio" name="gender" value="Female">
+						<label for="female">Female</label>
+						<input type="radio" name="gender" value="Others">
+						<label for="others">Others</label>
+						<br/><br/>
+						<label for="dob">Date of Birth:</label> 
+						<input type="date" name="dob">
+						<br/><br/>
+						<label for="phone_number">Phone Number: </label> 
+						<input type="tel" name="phone_number" maxlength="10" pattern="[0-9]{10}" placeholder="9123456708">
+						<br/><br/>
+					</fieldset>
+				</form>
+			</section>
+			<section class="educational-details">
+				<form action="action.php">
+					<fieldset class="educational-details_box">
+						<legend>Educational Details</legend>
+						<label for="education_level">Education Level: </label> 
+						<select name="education_level">
+							<option value="primary">Primary</option>
+							<option value="higher_primary">Higher Primary</option>
+							<option value="secondary">Secondary</option>
+							<option value="higher_secondary">Higher Secondary</option>
+							<option value="gradute">Gradute</option>
+							<option value="post_gradute">Post Gradute</option>
+						</select>
+						<br/><br/>
+						<label for="school_name">School Name:</label>
+						<input type="text" name="school_name">
+						<br/><br/>
+						<label for="college_name">College Name: </label> 
+						<input type="text" name="college_name">
+						<br/><br/>
+					</fieldset>
+				</form>
+			</section>
+			<section class="politiacl-persuasion">
+				<form action = "action.php">
+					<fieldset class="politiacl-persuasion_box">
+						<label for="politiacl_persuasion">Politiacl Persuasion: </label>
+						<select name="politiacl_persuasion">
+							<option value="Right-Wing">Right-Wing</option>
+							<option value="Left-Wing">Left-Wing</option>
+							<option vlaue='Prefer_not_to_Ans'>Prefer not to answer</option>
+						</select>
+					</fieldset>
+				</form>
+			</section>
+			<section class="essay-section">
+				<form action="action.php">
+					<fieldset class="essay-section_box">
+						<label for="Essay_section">Explain Yourself: </label>
+						<br>
+						<textarea name="Essay_section", maxlength="100"></textarea><br>
+					</fieldset>
+				</form>
+			</section>
+			<section class="upload">
+				<form action="action.php">
+					<fieldset class="upload_box">
+						<label for="photo">Upload your photo </label>
+						<input type="file" name="photo" accept="image/*,.pdf"><br>
+						<label for="bank_statement">Upolad your Bank statement </label>
+						<input type="file" name="bank_statement" accept="image/*,.pdf"><br>
+						<label for="medical_certificate">Upload your medical certificate </label>
+						<input type="file" name="medical_certificate" accept="image/*,.pdf">
+					</fieldset>
+				</form>
+			</section>
+			<section class="submit-button">
+				<form action="action.php">
+					<input type="submit">
+				</form>
+			</section>
+		</main>
+	</div>
+</body>
+</html>

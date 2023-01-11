@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: ghostwhite;
+	margin: 0;
+	font-family: 'Charm', cursive;
+	font-size: 1.2rem;
+} 
+.main-header{
+	background: #343434;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+.main-header_heading{
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	font-size: 4.5rem;
+	color: #F535AA;
+}
+.personal_details{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+
+}
+.personal_details-box{
+	background: ghostwhite;
+	width: 40vw;
+}
+.educational-details{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.educational-details_box{
+	background: ghostwhite;
+	width: 40vw;
+}
+.politiacl-persuasion{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.politiacl-persuasion_box{
+	margin: 1rem;
+	background: ghostwhite;
+	width: 40vw;
+}
+
+.essay-section{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.essay-section_box{
+	background: ghostwhite;
+	width: 40vw;
+}
+
+.upload{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.upload_box{
+	margin: 1rem;
+	background: ghostwhite;
+	width: 40vw;
+}
+.submit-button{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
