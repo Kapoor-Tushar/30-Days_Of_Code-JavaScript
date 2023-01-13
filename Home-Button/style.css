@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: #3d5a80;
+  background-color: #f0f0f0;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-style: none;
+  border-radius: 25px;
+  font-size: 5rem;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border: 2px solid aqua;
+}
+.btn:hover {
+  box-shadow: 3px 3px 4px lightcoral;
+  font-weight: 700;
+  font-size: 5.1rem;
+  cursor: pointer;
+  border: 2px solid rgb(65, 180, 180);
+}
