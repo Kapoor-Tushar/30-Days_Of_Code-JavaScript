@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  font-size: 1.2rem;
+}
+.container {
+  background-color: aliceblue;
+  width: 450px;
+  border-radius: 20px;
+  height: 150px;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.header {
+  padding: 0.8rem;
+  border-bottom: 2px solid gray;
+  font-weight: 600;
+  color: blueviolet;
+  font-size: 1.4rem;
+  text-align: center;
+  cursor: all-scroll;
+  user-select: none;
+}
+.info {
+  margin: 1.5rem;
+}
