@@ -1,13 +1,35 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Weather Forecast</title>
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <div class="heading">Weather Forecast</div>
-    <div class="container">
-      <div class="input-city"><input type="text" /></div>
-      <div class="weather-container"></div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather Application</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<div class="heading"> Weather Appliction</div>
+    <div class="app-main">
+        <div class="place-input">
+            <input type="text" id = "input-box" class = "input-box " placeholder="Enter City Name" list="datalist" onkeyup="autoComplete(this.value)">
+            <datalist id="datalist"></datalist>
+            <button> <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg"
+                        alt="search" class="search-icon"></button>
+        </div>
+        <div class="weather-body">
+        	<div class="not-found"></div>            
+            <div class="weather-status">
+                <div class="city"></div>
+                <div class="clouds"></div>
+                <div class="temp"></div>
+                <div class="min" id="min"></div>
+                <div class="max" id="max"></div>
+                <div class="humidity"></div>
+                <div class="wind-speed"></div>
+                <div class="visibility"></div>
+            </div>
+        </div>
     </div>
-  </body>
+</body>
 </html>
