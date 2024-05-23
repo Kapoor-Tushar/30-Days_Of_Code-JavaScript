@@ -20,8 +20,7 @@ Project List:
   <li><strong>Guess the Number Game:</strong> A classic number guessing game for entertainment.</li>
   <li><strong>Home Button:</strong> Create a home button for navigation convenience.</li>
   <li><strong>Joke Generator:</strong> Lighten the mood with a random joke generator.</li>
-  <li><strong>Key Event:</strong></li>
-  <li><strong></strong> Capture and display key events in real-time.</li>
+  <li><strong>Key Event:</strong>Capture and display key events in real-time.</li>
   <li><strong>Modal Window:</strong> Implement modal windows for interactive user interactions.</li>
   <li><strong>Color Generator:</strong> Generate random colors and discover their hex codes.</li>
   <li><strong>Password Generator:</strong> Generate strong and secure passwords on the fly.</li>
